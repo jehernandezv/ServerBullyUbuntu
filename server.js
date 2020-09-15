@@ -3,9 +3,9 @@ const io = require('socket.io');
 const axios = require('axios');
 const morgan = require('morgan');
 const cors = require('cors');
-const ipHost = process.argv[2];
-const port = process.argv[3];
-const adressMiddleware = process.argv[4];
+const ipHost = '192.168.1.33';
+const port = '4100';
+const adressMiddleware = '192.168.1.37:4000';
 
 
 const app = express();
